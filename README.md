@@ -25,19 +25,5 @@ Esta implementación busca facilitar y automatizar la vigilancia inteligente en 
 
 * **Origen:** [Kaggle Dataset Link](https://www.kaggle.com/datasets/orvile/x-ray-baggage-anomaly-detection)
 * **Descripción:** El dataset consiste en imágenes de rayos X de equipajes con sus correspondientes anotaciones (bounding boxes) para las 5 clases de objetos mencionadas. El análisis exploratorio (EDA) reveló que se trata de un dataset con objetos generalmente pequeños, centrados en la imagen y con un desbalanceo moderado en la clase `pliers`.
-
-##  Estructura del Repositorio
-
-El proyecto se organiza en las siguientes carpetas principales:
-```
-.
-├── dataset_baggage_scanner/
-│   ├── train/                # Imágenes y anotaciones para entrenamiento
-│   └── test/                 # Imágenes y anotaciones para prueba y validación
-│
-├── modelos/
-│   └── ...                   # Modelos entrenados 
-│
-├── runs/
-│   └── ...                   # Resultados de entrenamientos y gráficos 
+ 
 ```
